@@ -1,5 +1,7 @@
 #!/bin/sh
 
+alias dev='ssh a9-search-dev-zjay-5001.iad5.amazon.com'
+
 alias e=vi
 alias iv=vi
 
@@ -82,11 +84,12 @@ else
 fi
 
 
-alias ls='/bin/ls -h --color=auto --show-control-chars'
+# alias ls='/bin/ls -h --color=auto --show-control-chars'
+alias ls='/bin/ls -G'
 alias sl='ls'
 alias la='ls -A'
-alias ll='ls -lrt --color=always'
-alias lla='ls -Alrt --color=always'
+alias ll='ls -lrt -G'
+alias lla='ls -Alrt -G'
 
 alias ..='cd ..'
 alias ...='cd ../..'
