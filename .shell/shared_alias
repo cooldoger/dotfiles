@@ -100,7 +100,8 @@ alias pss='processes=`ps aux`; echo "$processes" | head -n1; echo "$processes" |
 alias md='mkdir -p'
 alias rd=rmdir
 alias d='dirs -v'
-alias j='jobs -l'
+# j will be used for autojump
+# alias j='jobs -l'
 alias lo=locate
 
 # configure
